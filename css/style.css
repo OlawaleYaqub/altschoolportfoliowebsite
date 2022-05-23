@@ -274,3 +274,25 @@ input:placeholder-shown {
     font-family: var(--mono);
     font-size: var(--font-size);
 } 
+/* Footer Section */
+.footer {
+    font-size: var(--font-size);
+    color: var(--white);
+    text-align: center;
+    font-family: var(--sans);
+    padding: 4rem 0;
+}
+
+.footer [class *="fa-"] {
+    font-size: 150%;
+}
+
+.footer ul {
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+    flex-basis: row wrap;
+    align-content: center;
+    justify-content: center;
+    color: var(--magenta);
+}

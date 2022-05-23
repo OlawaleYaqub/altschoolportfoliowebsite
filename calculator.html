@@ -22,7 +22,7 @@
         >
         <link
             rel="stylesheet"
-            href="css/login.css"
+            href="css/calculator.css"
         >
     </head>
 
@@ -69,51 +69,40 @@
                     </ul>
                 </nav>
             </div>
-            <div class="login-overall">
-                <div class="login-form">
-                    <form
-                        action="#"
-                        method="post"
-                    >
-                        <div class="login-field">
-                            <label
-                                for="username">Username
-                                <br>
-                                <input
-                                    type="text"
-                                    id="username"
-                                    name="username"
-                                    placeholder="Username"
-                                    required
-                                >
-                            </label>
-                        </div>
-                        <div class="login-field">
-                            <label
-                                for="password">Password
-                                <br>
-                                <input
-                                    type="text"
-                                    id="password"
-                                    name="password"
-                                    placeholder="*******"
-                                    required
-                                >
-                            </label>
-                        </div>
-                        <div class="login-field">
-                            <button>Sign
-                                in</button>
-                        </div>
-                        <hr>
-                        <p>Don't have an account?
-                            <span>Sign up</span>
-                        </p>
-                    </form>
-                </div>
-
+            <div class="calc">
+                <section class="screen">
+                    0
+                </section>
+                <section class="calc-buttons">
+                   <div class="calc-row">
+                       <button class="double calc-button">C</button>
+                       <button class="calc-button"><-</button>
+                       <button class="calc-button">/</button>
+                    </div>
+                   <div class="calc-row">
+                       <button class="calc-button">7</button>
+                       <button class="calc-button">8</button>
+                       <button class="calc-button">9</button>
+                       <button class="calc-button">X</button>
+                    </div>
+                   <div class="calc-row">
+                       <button class="calc-button">4</button>
+                       <button class="calc-button">5</button>
+                       <button class="calc-button">6</button>
+                       <button class="calc-button">-</button>
+                    </div>
+                    <div class="calc-row">
+                        <button class="calc-button">1</button>
+                        <button class="calc-button">2</button>
+                        <button class="calc-button">3</button>
+                        <button class="calc-button">+</button>
+                     </div>
+                   <div class="calc-row">
+                       <button class="triple calc-button">0</button>
+                       <button class="calc-button">=</button>
+                    </div> 
+                </section>
             </div>
-
         </section>
     </body>
 

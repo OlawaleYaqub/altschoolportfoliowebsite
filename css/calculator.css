@@ -89,49 +89,66 @@ nav h1 a {
 
 }
 
-div.login-overall {
+/* Calculator styling */
+.calc {
+    max-width: 400px;
+    background-color: black;
+    color: white;
     border: 1px solid var(--aqua);
-    border-radius: 7px;
-    max-width: 700px;
-    padding: 2rem;
     margin: 40px auto 20px auto;
+    border-radius: 7px
 }
 
-div.login-field {
-    margin-bottom: 15px;
-    font-family: var(--mono);
+.screen {
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.calc-button {
+    background-color: lightgrey;
+    color: black;
+    font-size: 40px;
+    height: 100px;
+    width: 24.5%;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.calc-button:hover {
+    background-color: #ebebeb;
+}
+
+.calc-button:active {
+    background-color: #bbbcbe;
+}
+
+.calc-button:last-child {
+    background-color: var(--magenta);
     color: white;
 }
 
-.login-field button {
-    padding: 0.5rem;
-    border-radius: 7px;
-    font-family: inherit;
-    font-size: inherit;
-    outline: 0;
-    margin-top: 2rem;
-
+.calc-button:last-child:hover {
+    background-color: var(--hotmag);
 }
 
-.login-field button:hover {
-    background-color: rgb(190, 235, 235);
+.calc-button:last-child:active {
+    background-color: #dd8d37;
 }
 
-div.login-field input {
-    width: 100%;
-    padding: 10px 15px;
-    border-radius: 7px;
-    font-family: inherit;
-    font-size: inherit;
-    margin-top: 7.5px;
-    outline: 0;
+.double {
+    width: 49.7%;
 }
 
-p {
-    font-family: var(--mono);
-    color: var(--white);
+.triple {
+    width: 74.8%;
 }
 
-p span {
-    color: var(--aqua);
+.calc-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
 }
